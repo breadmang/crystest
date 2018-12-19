@@ -26,11 +26,11 @@ Moves:
 	move GUILLOTINE,   EFFECT_OHKO,                0, NORMAL,    30,  5,   0
 	move RAZOR_WIND,   EFFECT_RAZOR_WIND,         80, NORMAL,    75, 10,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,   100, 30,   0
-	move CUT,          EFFECT_NORMAL_HIT,         50, NORMAL,    95, 30,   0
+	move CUT,          EFFECT_DOUBLE_HIT,         40, BUG,      100, 30,   0
 	move GUST,         EFFECT_GUST,               40, FLYING,   100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,   100, 35,   0
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,   100, 20,   0
-	move FLY,          EFFECT_FLY,                70, FLYING,    95, 15,   0
+	move FLY,          EFFECT_NORMAL_HIT,         95, FLYING,   100, 35,   0
 	move BIND,         EFFECT_TRAP_TARGET,        15, NORMAL,    75, 20,   0
 	move SLAM,         EFFECT_NORMAL_HIT,         80, NORMAL,    75, 20,   0
 	move VINE_WHIP,    EFFECT_NORMAL_HIT,         35, GRASS,    100, 10,   0
@@ -159,7 +159,7 @@ Moves:
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,    100, 30,  10
 	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,   100, 10,  20
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,    100, 15,   0
-	move FLASH,        EFFECT_ACCURACY_DOWN,       0, NORMAL,    70, 20,   0
+	move FLASH,        EFFECT_ACCURACY_DOWN,      25, ELECTRIC, 100, 20,   0
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC,   80, 15,   0
 	move SPLASH,       EFFECT_SPLASH,              0, NORMAL,   100, 40,   0
 	move ACID_ARMOR,   EFFECT_DEFENSE_UP_2,        0, POISON,   100, 40,   0
@@ -194,7 +194,7 @@ Moves:
 	move SPITE,        EFFECT_SPITE,               0, GHOST,    100, 10,   0
 	move POWDER_SNOW,  EFFECT_FREEZE_HIT,         40, ICE,      100, 25,  10
 	move PROTECT,      EFFECT_PROTECT,             0, NORMAL,   100, 10,   0
-	move MACH_PUNCH,   EFFECT_PRIORITY_HIT,       40, FIGHTING, 100, 30,   0
+	move MACH_PUNCH,   EFFECT_PRIORITY_HIT,       75, FIGHTING, 100, 30,   0
 	move SCARY_FACE,   EFFECT_SPEED_DOWN_2,        0, NORMAL,    90, 10,   0
 	move FAINT_ATTACK, EFFECT_ALWAYS_HIT,         60, DARK,     100, 20,   0
 	move SWEET_KISS,   EFFECT_CONFUSE,             0, NORMAL,    75, 10,   0
