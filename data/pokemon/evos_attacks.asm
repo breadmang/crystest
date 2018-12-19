@@ -2159,12 +2159,12 @@ TyphlosionEvosAttacks:
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
-	db EVOLVE_LEVEL, 18, CROCONAW
+	db EVOLVE_LEVEL, 12, CROCONAW
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, LEER
+	db 1, EARTHQUAKE
 	db 7, RAGE
-	db 13, WATER_GUN
+	db 10, WATER_GUN
 	db 20, BITE
 	db 27, SCARY_FACE
 	db 35, SLASH
@@ -2173,16 +2173,16 @@ TotodileEvosAttacks:
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
-	db EVOLVE_LEVEL, 30, FERALIGATR
+	db EVOLVE_LEVEL, 15, FERALIGATR
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, RAGE
 	db 7, RAGE
 	db 13, WATER_GUN
-	db 21, BITE
+	db 16, BITE
 	db 28, SCARY_FACE
-	db 37, SLASH
+	db 29, SLASH
 	db 45, SCREECH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2897,7 +2897,7 @@ ShuckleEvosAttacks:
 
 HeracrossEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, MACH_PUNCH
 	db 1, LEER
 	db 6, HORN_ATTACK
 	db 12, ENDURE
