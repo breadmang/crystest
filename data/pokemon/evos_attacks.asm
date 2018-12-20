@@ -1841,7 +1841,7 @@ JolteonEvosAttacks:
 	db 1, TACKLE
 	db 1, TAIL_WHIP
 	db 8, SAND_ATTACK
-	db 16, THUNDERSHOCK
+	db 16, THUNDERBOLT
 	db 23, QUICK_ATTACK
 	db 30, DOUBLE_KICK
 	db 36, PIN_MISSILE
@@ -2912,7 +2912,7 @@ SneaselEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, QUICK_ATTACK
+	db 9, CRUNCH
 	db 17, SCREECH
 	db 25, FAINT_ATTACK
 	db 33, FURY_SWIPES
@@ -3367,7 +3367,7 @@ TyranitarEvosAttacks:
 LugiaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, AEROBLAST
-	db 11, SAFEGUARD
+	db 11, PSYCHIC_M
 	db 22, GUST
 	db 33, RECOVER
 	db 44, HYDRO_PUMP
@@ -3381,7 +3381,7 @@ LugiaEvosAttacks:
 HoOhEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SACRED_FIRE
-	db 11, SAFEGUARD
+	db 11, FLAMETHROWER
 	db 22, GUST
 	db 33, RECOVER
 	db 44, FIRE_BLAST
