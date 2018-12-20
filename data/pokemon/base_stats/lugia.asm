@@ -1,9 +1,9 @@
 	db LUGIA ; 249
 
-	db 106,  90, 130, 110,  90, 154
+	db 106, 130,  90, 110, 154,  90
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC, FLYING ; type
+	db PSYCHIC, GHOST ; type
 	db 3 ; catch rate
 	db 220 ; base exp
 	db NO_ITEM, NO_ITEM ; items
